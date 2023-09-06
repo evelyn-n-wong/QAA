@@ -18,7 +18,7 @@ dir2=/projects/bgmp/shared/2017_sequencing/demultiplexed/28_4D_mbnl_S20_L008_R2_
 dir3=/projects/bgmp/shared/2017_sequencing/demultiplexed/3_2B_control_S3_L008_R1_001.fastq.gz
 dir4=/projects/bgmp/shared/2017_sequencing/demultiplexed/3_2B_control_S3_L008_R2_001.fastq.gz
 
-fastqc -o /projects/bgmp/evew/bioinfo/Bi623/QAA/ $dir1
-fastqc -o /projects/bgmp/evew/bioinfo/Bi623/QAA/ $dir2
-fastqc -o /projects/bgmp/evew/bioinfo/Bi623/QAA/ $dir3
-fastqc -o /projects/bgmp/evew/bioinfo/Bi623/QAA/ $dir4
+fastqc -o /projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/ --extract $dir1
+fastqc -o /projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/ --extract $dir2
+fastqc -o /projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/ --extract $dir3
+fastqc -o /projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/ --extract $dir4
