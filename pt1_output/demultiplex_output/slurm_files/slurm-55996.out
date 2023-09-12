@@ -1,0 +1,64 @@
+Traceback (most recent call last):
+  File "/projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/qaa_pt2_plot.py", line 65, in <module>
+    fig, axes = plt.subplot(1, 2)
+  File "/projects/bgmp/evew/miniconda3/envs/QAA2/lib/python3.10/site-packages/matplotlib/pyplot.py", line 1323, in subplot
+    key = SubplotSpec._from_subplot_args(fig, args)
+  File "/projects/bgmp/evew/miniconda3/envs/QAA2/lib/python3.10/site-packages/matplotlib/gridspec.py", line 587, in _from_subplot_args
+    raise _api.nargs_error("subplot", takes="1 or 3", given=len(args))
+TypeError: subplot() takes 1 or 3 positional arguments but 2 were given
+Command exited with non-zero status 1
+	Command being timed: "/projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/qaa_pt2_plot.py -r1 /projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/28_4D_mbnl_S20_L008_R1_001_trimmed_out.fastq -r2 /projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/28_4D_mbnl_S20_L008_R2_001_trimmed_out.fastq -o1 /projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/28_4D_mbnl_S20_L008_R12"
+	User time (seconds): 69.00
+	System time (seconds): 51.11
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:05.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 48652
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19773
+	Voluntary context switches: 28374
+	Involuntary context switches: 145
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+Traceback (most recent call last):
+  File "/projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/qaa_pt2_plot.py", line 65, in <module>
+    fig, axes = plt.subplot(1, 2)
+  File "/projects/bgmp/evew/miniconda3/envs/QAA2/lib/python3.10/site-packages/matplotlib/pyplot.py", line 1323, in subplot
+    key = SubplotSpec._from_subplot_args(fig, args)
+  File "/projects/bgmp/evew/miniconda3/envs/QAA2/lib/python3.10/site-packages/matplotlib/gridspec.py", line 587, in _from_subplot_args
+    raise _api.nargs_error("subplot", takes="1 or 3", given=len(args))
+TypeError: subplot() takes 1 or 3 positional arguments but 2 were given
+Command exited with non-zero status 1
+	Command being timed: "/projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/qaa_pt2_plot.py -r1 /projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/3_2B_control_S3_L008_R1_001_trimmed_out.fastq -r2 /projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/3_2B_control_S3_L008_R2_001_trimmed_out.fastq -o1 /projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/3_2B_control_S3_L008_R12"
+	User time (seconds): 38.34
+	System time (seconds): 27.76
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:08.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 52184
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19179
+	Voluntary context switches: 1945
+	Involuntary context switches: 32
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1

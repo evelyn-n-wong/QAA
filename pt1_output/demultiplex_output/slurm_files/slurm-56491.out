@@ -1,0 +1,60 @@
+{96: 23424, 61: 198248, 101: 7060517, 1: 3908323, 77: 8162, 62: 1398637, 89: 13175, 87: 12363, 97: 45928, 100: 169576, 98: 152740, 99: 21521, 92: 14848, 95: 17068, 40: 749, 90: 13586, 93: 15081, 66: 3926, 80: 9372, 76: 7718, 84: 10820, 56: 1934, 42: 855, 72: 6180, 78: 8621, 68: 4715, 81: 9739, 91: 14811, 63: 2320659, 94: 15984, 79: 9231, 60: 2733, 74: 7103, 73: 6670, 85: 11424, 54: 1545, 64: 3523, 88: 12824, 59: 2404, 50: 1250, 71: 5677, 83: 10419, 86: 11811, 69: 4886, 58: 2164, 52: 1456, 55: 1826, 67: 4379, 65: 3865, 38: 736, 82: 10071, 75: 7325, 57: 2007, 39: 753, 41: 796, 37: 668, 44: 838, 70: 5446, 43: 850, 49: 1235, 47: 1060, 45: 915, 53: 1497, 51: 1322, 46: 1015, 36: 641, 48: 1020, 35: 628}
+{99: 5153, 62: 81294, 101: 373952, 1: 226026, 98: 8850, 100: 31281, 74: 529, 61: 11759, 80: 508, 92: 677, 63: 134222, 87: 581, 66: 453, 97: 2586, 81: 554, 70: 469, 49: 387, 64: 421, 86: 521, 46: 428, 82: 576, 91: 688, 67: 452, 68: 456, 90: 608, 39: 442, 65: 453, 75: 538, 38: 388, 84: 558, 93: 658, 79: 530, 72: 565, 94: 679, 88: 560, 89: 569, 47: 420, 53: 340, 69: 450, 35: 342, 48: 354, 83: 512, 58: 407, 55: 400, 54: 379, 42: 402, 37: 372, 85: 538, 71: 537, 73: 588, 36: 338, 77: 574, 96: 1172, 52: 359, 43: 416, 40: 411, 76: 511, 60: 416, 50: 410, 95: 748, 59: 415, 56: 388, 78: 488, 41: 424, 45: 447, 57: 401, 51: 358, 44: 417, 0: 14729188}
+Traceback (most recent call last):
+  File "/projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/qaa_pt2_plot.py", line 89, in <module>
+    plt.savefig(f'PLOT_{output}'.png)
+AttributeError: 'str' object has no attribute 'png'
+Command exited with non-zero status 1
+	Command being timed: "/projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/qaa_pt2_plot.py -r1 /projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/28_4D_mbnl_S20_L008_R1_001_trimmed_out.fastq -r2 /projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/28_4D_mbnl_S20_L008_R2_001_trimmed_out.fastq -o1 /projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/28_4D_mbnl_S20_L008_R12"
+	User time (seconds): 69.93
+	System time (seconds): 51.64
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:01.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 63444
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20832
+	Voluntary context switches: 1397
+	Involuntary context switches: 39
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+{101: 3986067, 61: 108118, 98: 80620, 1: 2142537, 62: 766946, 100: 94858, 43: 428, 97: 21439, 95: 4508, 99: 12359, 44: 438, 96: 8097, 94: 3880, 80: 1900, 81: 2020, 45: 385, 87: 2647, 86: 2668, 60: 674, 67: 977, 69: 1091, 91: 3575, 93: 3673, 88: 2835, 89: 3015, 78: 1764, 38: 376, 82: 2029, 35: 280, 70: 1169, 73: 1378, 76: 1517, 83: 2076, 74: 1530, 42: 428, 68: 1009, 77: 1712, 79: 1900, 40: 418, 90: 3270, 72: 1371, 84: 2252, 52: 496, 63: 1269679, 85: 2524, 54: 530, 92: 3488, 59: 638, 49: 477, 66: 877, 53: 542, 75: 1490, 57: 633, 71: 1264, 64: 807, 36: 363, 51: 499, 39: 378, 48: 437, 56: 617, 58: 621, 46: 452, 50: 463, 55: 588, 47: 418, 37: 370, 65: 868, 41: 395}
+{101: 237621, 61: 8076, 1: 145738, 100: 19828, 62: 52800, 82: 341, 60: 383, 35: 257, 44: 488, 91: 429, 98: 5387, 99: 3264, 84: 331, 76: 390, 67: 363, 71: 411, 88: 388, 51: 342, 72: 427, 74: 386, 97: 1624, 96: 760, 86: 356, 85: 370, 92: 409, 41: 441, 81: 349, 56: 307, 53: 332, 77: 401, 69: 379, 38: 365, 80: 342, 83: 343, 63: 85941, 49: 369, 39: 446, 36: 329, 45: 443, 43: 444, 66: 363, 50: 377, 59: 335, 46: 424, 54: 322, 70: 384, 58: 345, 40: 460, 79: 372, 64: 397, 87: 387, 48: 401, 47: 396, 68: 363, 75: 347, 65: 346, 55: 356, 57: 330, 78: 354, 89: 351, 73: 399, 94: 406, 42: 436, 52: 346, 37: 341, 90: 400, 93: 380, 95: 437, 0: 7987193}
+Traceback (most recent call last):
+  File "/projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/qaa_pt2_plot.py", line 89, in <module>
+    plt.savefig(f'PLOT_{output}'.png)
+AttributeError: 'str' object has no attribute 'png'
+Command exited with non-zero status 1
+	Command being timed: "/projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/qaa_pt2_plot.py -r1 /projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/3_2B_control_S3_L008_R1_001_trimmed_out.fastq -r2 /projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/3_2B_control_S3_L008_R2_001_trimmed_out.fastq -o1 /projects/bgmp/evew/bioinfo/Bi623/QAA/pt1_output/demultiplex_output/3_2B_control_S3_L008_R12"
+	User time (seconds): 39.55
+	System time (seconds): 27.96
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:07.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 58976
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20306
+	Voluntary context switches: 884
+	Involuntary context switches: 32
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
