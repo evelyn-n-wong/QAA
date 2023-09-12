@@ -1,0 +1,177 @@
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+800000 GFF lines processed.
+900000 GFF lines processed.
+1000000 GFF lines processed.
+1100000 GFF lines processed.
+1200000 GFF lines processed.
+1300000 GFF lines processed.
+1400000 GFF lines processed.
+1500000 GFF lines processed.
+1600000 GFF lines processed.
+1700000 GFF lines processed.
+1800000 GFF lines processed.
+1900000 GFF lines processed.
+1901158 GFF lines processed.
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+900000 alignment record pairs processed.
+1000000 alignment record pairs processed.
+1100000 alignment record pairs processed.
+1200000 alignment record pairs processed.
+1300000 alignment record pairs processed.
+1400000 alignment record pairs processed.
+1500000 alignment record pairs processed.
+1600000 alignment record pairs processed.
+1700000 alignment record pairs processed.
+1800000 alignment record pairs processed.
+1900000 alignment record pairs processed.
+2000000 alignment record pairs processed.
+2100000 alignment record pairs processed.
+2200000 alignment record pairs processed.
+2300000 alignment record pairs processed.
+2400000 alignment record pairs processed.
+2500000 alignment record pairs processed.
+2600000 alignment record pairs processed.
+2700000 alignment record pairs processed.
+2800000 alignment record pairs processed.
+2900000 alignment record pairs processed.
+3000000 alignment record pairs processed.
+3100000 alignment record pairs processed.
+3200000 alignment record pairs processed.
+3300000 alignment record pairs processed.
+3400000 alignment record pairs processed.
+3500000 alignment record pairs processed.
+3600000 alignment record pairs processed.
+3700000 alignment record pairs processed.
+3800000 alignment record pairs processed.
+3900000 alignment record pairs processed.
+4000000 alignment record pairs processed.
+4100000 alignment record pairs processed.
+4200000 alignment record pairs processed.
+4300000 alignment record pairs processed.
+4400000 alignment record pairs processed.
+4500000 alignment record pairs processed.
+4600000 alignment record pairs processed.
+4700000 alignment record pairs processed.
+4800000 alignment record pairs processed.
+4900000 alignment record pairs processed.
+5000000 alignment record pairs processed.
+5100000 alignment record pairs processed.
+5200000 alignment record pairs processed.
+5300000 alignment record pairs processed.
+5400000 alignment record pairs processed.
+5500000 alignment record pairs processed.
+5600000 alignment record pairs processed.
+5700000 alignment record pairs processed.
+5800000 alignment record pairs processed.
+5900000 alignment record pairs processed.
+6000000 alignment record pairs processed.
+6100000 alignment record pairs processed.
+6200000 alignment record pairs processed.
+6300000 alignment record pairs processed.
+6400000 alignment record pairs processed.
+6500000 alignment record pairs processed.
+6600000 alignment record pairs processed.
+6700000 alignment record pairs processed.
+6800000 alignment record pairs processed.
+6900000 alignment record pairs processed.
+7000000 alignment record pairs processed.
+7100000 alignment record pairs processed.
+7200000 alignment record pairs processed.
+7300000 alignment record pairs processed.
+7400000 alignment record pairs processed.
+7500000 alignment record pairs processed.
+7600000 alignment record pairs processed.
+7700000 alignment record pairs processed.
+7800000 alignment record pairs processed.
+7900000 alignment record pairs processed.
+8000000 alignment record pairs processed.
+8100000 alignment record pairs processed.
+8200000 alignment record pairs processed.
+8300000 alignment record pairs processed.
+8400000 alignment record pairs processed.
+8500000 alignment record pairs processed.
+8600000 alignment record pairs processed.
+8700000 alignment record pairs processed.
+8800000 alignment record pairs processed.
+8900000 alignment record pairs processed.
+9000000 alignment record pairs processed.
+9100000 alignment record pairs processed.
+9200000 alignment record pairs processed.
+9300000 alignment record pairs processed.
+9400000 alignment record pairs processed.
+9500000 alignment record pairs processed.
+9600000 alignment record pairs processed.
+9700000 alignment record pairs processed.
+9800000 alignment record pairs processed.
+9900000 alignment record pairs processed.
+10000000 alignment record pairs processed.
+10100000 alignment record pairs processed.
+10200000 alignment record pairs processed.
+10300000 alignment record pairs processed.
+10400000 alignment record pairs processed.
+10500000 alignment record pairs processed.
+10600000 alignment record pairs processed.
+10700000 alignment record pairs processed.
+10800000 alignment record pairs processed.
+10900000 alignment record pairs processed.
+11000000 alignment record pairs processed.
+11100000 alignment record pairs processed.
+11200000 alignment record pairs processed.
+11300000 alignment record pairs processed.
+11400000 alignment record pairs processed.
+11500000 alignment record pairs processed.
+11600000 alignment record pairs processed.
+11700000 alignment record pairs processed.
+11725400 alignment record pairs processed.
+877.96user 2.89system 14:43.75elapsed 99%CPU (0avgtext+0avgdata 175804maxresident)k
+0inputs+0outputs (0major+320987minor)pagefaults 0swaps
+  [Errno 2] No such file or directory: '/projects/bgmp/evew/bioinfo/Bi623/QAA/STAR/Mus_musculus.GRCm39.110.gtf'
+  [Exception type: FileNotFoundError, raised in utils.py:48]
+Command exited with non-zero status 1
+0.19user 0.61system 0:00.26elapsed 303%CPU (0avgtext+0avgdata 34120maxresident)k
+0inputs+0outputs (0major+7344minor)pagefaults 0swaps
+[E::hts_open_format] Failed to open file "/projects/bgmp/evew/bioinfo/Bi623/QAA/STAR_out/Mouse_QAA_new_3_2B_control_S3_L008_Aligned.out.sam" : No such file or directory
+Traceback (most recent call last):
+  File "/projects/bgmp/evew/miniconda3/envs/QAA2/bin/htseq-count", line 5, in <module>
+    HTSeq.scripts.count.main()
+  File "/projects/bgmp/evew/miniconda3/envs/QAA2/lib/python3.10/site-packages/HTSeq/scripts/count.py", line 473, in main
+    args = _parse_sanitize_cmdline_arguments()
+  File "/projects/bgmp/evew/miniconda3/envs/QAA2/lib/python3.10/site-packages/HTSeq/scripts/count.py", line 465, in _parse_sanitize_cmdline_arguments
+    _check_sam_files(args.samfilenames)
+  File "/projects/bgmp/evew/miniconda3/envs/QAA2/lib/python3.10/site-packages/HTSeq/scripts/count.py", line 158, in _check_sam_files
+    with pysam.AlignmentFile(sam_filename, "r") as sf:
+  File "pysam/libcalignmentfile.pyx", line 747, in pysam.libcalignmentfile.AlignmentFile.__cinit__
+  File "pysam/libcalignmentfile.pyx", line 946, in pysam.libcalignmentfile.AlignmentFile._open
+FileNotFoundError: [Errno 2] could not open alignment file `/projects/bgmp/evew/bioinfo/Bi623/QAA/STAR_out/Mouse_QAA_new_3_2B_control_S3_L008_Aligned.out.sam`: No such file or directory
+Command exited with non-zero status 1
+0.18user 0.62system 0:00.14elapsed 577%CPU (0avgtext+0avgdata 34628maxresident)k
+0inputs+0outputs (0major+7467minor)pagefaults 0swaps
+[E::hts_open_format] Failed to open file "/projects/bgmp/evew/bioinfo/Bi623/QAA/STAR_out/Mouse_QAA_new_3_2B_control_S3_L008_Aligned.out.sam" : No such file or directory
+Traceback (most recent call last):
+  File "/projects/bgmp/evew/miniconda3/envs/QAA2/bin/htseq-count", line 5, in <module>
+    HTSeq.scripts.count.main()
+  File "/projects/bgmp/evew/miniconda3/envs/QAA2/lib/python3.10/site-packages/HTSeq/scripts/count.py", line 473, in main
+    args = _parse_sanitize_cmdline_arguments()
+  File "/projects/bgmp/evew/miniconda3/envs/QAA2/lib/python3.10/site-packages/HTSeq/scripts/count.py", line 465, in _parse_sanitize_cmdline_arguments
+    _check_sam_files(args.samfilenames)
+  File "/projects/bgmp/evew/miniconda3/envs/QAA2/lib/python3.10/site-packages/HTSeq/scripts/count.py", line 158, in _check_sam_files
+    with pysam.AlignmentFile(sam_filename, "r") as sf:
+  File "pysam/libcalignmentfile.pyx", line 747, in pysam.libcalignmentfile.AlignmentFile.__cinit__
+  File "pysam/libcalignmentfile.pyx", line 946, in pysam.libcalignmentfile.AlignmentFile._open
+FileNotFoundError: [Errno 2] could not open alignment file `/projects/bgmp/evew/bioinfo/Bi623/QAA/STAR_out/Mouse_QAA_new_3_2B_control_S3_L008_Aligned.out.sam`: No such file or directory
+Command exited with non-zero status 1
+0.18user 0.62system 0:00.13elapsed 584%CPU (0avgtext+0avgdata 34464maxresident)k
+0inputs+0outputs (0major+7408minor)pagefaults 0swaps
